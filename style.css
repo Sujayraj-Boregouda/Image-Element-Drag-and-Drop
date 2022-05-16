@@ -1,0 +1,38 @@
+body {
+    background: darkslateblue;
+}
+
+.dragDrop {
+margin: 200px auto;
+text-align: center;
+}
+
+.imgBox {
+    background-image: url('hero.png');
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.whiteBox {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 15px 10px;
+    background-color: #fff;
+}
+
+.hold {
+    border: 2px solid red;
+}
+
+.hide {
+    display: none;
+}
+
+.dashed {
+    background: gainsboro;
+}
